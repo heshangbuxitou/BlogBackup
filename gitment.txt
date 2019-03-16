@@ -1,0 +1,18 @@
+Client ID
+14715ee89ca1af10566d
+Client Secret
+0b809ebdd2c4d75410f4ef8237f0815d0f2b5484
+
+分别放到source 的（css,js） 下
+gitment.css  https://imsun.github.io/gitment/style/default.css
+gitment.js  http://link.zhihu.com/?target=https%3A//imsun.github.io/gitment/dist/gitment.browser.js
+
+G:\HexoBlog\themes\next\layout\_partials\head.swig
+
+<!-- 加载gitment的css和js文件 -->
+<link rel="stylesheet" href="/css/gitment.css"> 
+<script src="/js/gitment.js"></script>
+
+G:\HexoBlog\themes\next\layout\_macro\gitment.swig
+
+add post.swig
